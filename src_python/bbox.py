@@ -36,7 +36,7 @@ def get_iou(bbox1: Tensor, bbox2: Tensor) -> Tensor:
 
 
 
-def non_maximum_suppression(pred: List[Tensor], obj_threshold: float = 0.3,
+def non_maximum_suppression(pred: List[Tensor], obj_threshold: float = 0.6,
                             nms_threshold: float = 0.5) -> Optional[Tensor]:
     """
     :param pred: list of output of YOLOLayer / [batch_size, num_bbox, 5 + num_classes]
