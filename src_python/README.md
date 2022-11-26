@@ -11,6 +11,9 @@ and go to [torch.org](https://pytorch.org/) install pytorch
 
 ## run game
 after setting camera to show your hand and run!!
+```bash
+python flappy.py
+```
 
 
 
